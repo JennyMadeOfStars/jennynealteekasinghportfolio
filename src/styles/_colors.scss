@@ -1,0 +1,17 @@
+.rainbow {
+    background: $rainbow;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.reverse-rainbow {
+    background: $reverse-rainbow;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rainbow-shadow {
+    box-shadow: rgb(145 32 166) 0px 0px 0px 3px, rgb(236 85 68) 0px 0px 0px 6px, rgb(248 191 84) 0px 0px 0px 9px;
+}

@@ -1,0 +1,47 @@
+body.moon {
+    background-color: $color-bg-moon;
+    color: $color-main-moon;
+
+    nav {
+        background-color: $color-bg-moon;
+    }
+
+    a {
+        color: $color-secondary;
+    }
+}
+
+body.sun {
+    background-color: $color-bg-sun;
+    color: $color-main-sun;
+
+    nav {
+        background-color: $color-bg-sun;
+
+        a {
+            color: $color-secondary;
+        }
+    }
+
+    a {
+        color: $color-secondary;
+    }
+
+    .small-navigation__cta {
+        color: $color-secondary;
+    }
+
+    .section__nav button.active {
+        color: $color-secondary;
+    }
+
+    .small-navigation.active nav {
+        background-color: rgba(255,255,255,.95);
+    }
+
+    .side-navigation {
+        .git {
+            filter: invert(1);
+        }
+    }
+}

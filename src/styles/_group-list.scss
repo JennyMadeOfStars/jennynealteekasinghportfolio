@@ -1,0 +1,46 @@
+.group-list {
+    border: 1px solid $color-secondary;
+    padding: 20px;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            padding: 10px;
+        }
+
+        &.text li {
+            width: 100%;
+
+            @include large {
+                width: auto;
+            }
+        }
+
+        &.vertical {
+            justify-content: flex-start;
+            padding: 0;
+            text-align: left;
+
+            li {
+                padding: 0 0 10px;
+                width: 100%;
+            }
+        }
+    }
+
+    img {
+        height: 30px;
+        padding: 10px;
+    }
+
+    span {
+        height: 30px;
+        padding: 10px 0;
+    }
+}

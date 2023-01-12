@@ -1,0 +1,92 @@
+p, a, main, section, html, body, div, span, ul, li, button, h1, h2, h3, h4 {
+    color: inherit;
+}
+
+body {
+    font-family: 'raleway', sans-serif;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: raleway-bold;
+    font-size: 14px;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 0 20px;
+
+    @include large {
+        padding: 50px;
+    }
+}
+
+a {
+    background: $rainbow, $rainbow, $rainbow;
+    background-size: 0% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 3px;
+    transition: background-size 400ms;
+    text-decoration: none;
+
+    &:hover, &:focus {
+        background-size: 0 0.1em, 100% 0.1em;
+        color: $color-secondary;
+    }
+
+    &:visited {
+        color: inherit;
+    }
+}
+
+h2 {
+    text-align: left;
+}
+
+.specialty {
+    font-family: 'moonDance', Bradley Hand, cursive;
+}
+
+.bold {
+    font-family: 'raleway-bold';
+    font-weight: bolder;
+}
+
+.italic {
+    font-family: 'raleway-italic';
+}
+
+.content-section {
+    margin-bottom: 50px;
+}
+
+.icon {
+    background: none;
+}
+
+.full-page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.page-center {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    left: 50%;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fixed {
+	position: fixed;
+}

@@ -1,0 +1,59 @@
+.experience-section {
+    &__list {
+        list-style: none;
+
+        &-item {
+            border-bottom: 1px dotted;
+            margin-bottom: 20px;
+
+            &:last-of-type {
+                border-bottom: none;
+            }
+        }
+
+        ul {
+            margin-top: 15px;
+            max-height: 0;
+            max-width: 50%;
+            overflow-y: hidden;
+            transition: all 0.5s cubic-bezier(0, 1, 0.5, 1);
+
+            &.active {
+                max-height: 450px;
+            }
+        }
+    }
+
+    dt {
+        min-width: 150px;
+        text-align: left;
+    }
+
+    dd {
+        margin: 5px 0 0;
+        text-align: left;
+        width: auto;
+
+        @include large {
+            margin: 0 25px;
+        }
+
+        button {
+            margin-top: 15px;
+        }
+    }
+
+    dl {
+        @include large {
+            display: flex;
+        }
+    }
+
+    h3 {
+        margin: 0 0 5px;
+    }
+
+    p {
+        margin: 0 0 5px;
+    }
+}
