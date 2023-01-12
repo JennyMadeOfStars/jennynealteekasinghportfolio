@@ -18,7 +18,6 @@ const SmallNavigation = () => {
     const bodyElm = document.getElementsByTagName('body')[0];
 
     useEffect(() => {
-        bodyElm.style.position = menuStateActive ? 'fixed' : '';
         bodyElm.classList[menuStateActive ? 'add': 'remove']('fixed');
     }, [bodyElm, menuStateActive]);
 

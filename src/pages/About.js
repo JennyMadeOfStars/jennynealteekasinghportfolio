@@ -1,5 +1,5 @@
 // libraries
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 // pages
 import Contact from '../pages/Contact';
@@ -41,4 +41,4 @@ const About = () => {
     </div>
 };
 
-export default React.memo(About);
+export default About;
