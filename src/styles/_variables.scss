@@ -1,0 +1,20 @@
+// colors
+$color-main-sun: #888888;
+$color-main-moon: #b8b8b8;
+$color-secondary: #9120a6;
+$color-bg-moon: #130A1D;
+$color-bg-sun: #FAF7EF;
+
+// gradients
+$rainbow: linear-gradient(90deg, rgba(248,191,84,1) 0%, rgba(236,85,68,1) 35%, rgba(145,32,166,1) 81%);
+$reverse-rainbow: linear-gradient(90deg, rgba(145,32,166,1) 0%,  rgba(236,85,68,1) 35%, rgba(248,191,84,1) 81%);
+
+// size variables
+$large: 768px;
+
+// mixins // breakpoints
+@mixin large {
+    @media (min-width: #{$large}) {
+        @content;
+    }
+}

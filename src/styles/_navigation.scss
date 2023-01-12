@@ -1,0 +1,92 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    font-family: raleway;
+    font-size: 14px;
+    height: auto;
+    margin-bottom: 30px;
+    left: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+    @include large {
+        flex-direction: row;
+        justify-content: space-between;
+
+        li {
+            margin: 0 20px;
+        }
+    }
+
+    .small-navigation.active & {
+        height: auto;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .main-navigation {
+        list-style: none;
+        margin: 20px 30px;
+        padding: 0;
+        text-align: left;
+
+        @include large {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+          margin: 0;
+          padding-top: 5px;
+        }
+    }
+
+    a {
+        font-family: raleway-bold;
+        display: inline-block;
+        padding-top: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: auto;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        &.active {
+            background-size: 0 0.1em, 100% 0.1em;
+            margin-bottom: 5px;
+        }
+
+        &.logo {
+            background: none;
+            color: white;
+            font-size: 28px;
+            line-height: 1.25;
+            padding-left: 20px;
+            text-align: left;
+            text-transform: capitalize;
+            width: 65%;
+
+            @include large {
+                font-size: 2rem;
+                min-width: 300px;
+                width: auto;
+            }
+        }
+    }
+
+    .toggle-button {
+        height: 18px;
+        width: auto;
+        padding: 22px 0;
+        line-height: 0;
+        margin-top: 50px;
+
+        @include large {
+            margin-top: 0;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.contact-section {
+    margin: 20px 10px 50px;
+    padding: 20px;
+
+    .available {
+        font-size: 48px;
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+
+    .side-navigation {
+        display: block;
+
+        @include large {
+            display: none;
+        }
+
+        ul {
+            margin: 25px auto 0;
+        }
+    }
+}

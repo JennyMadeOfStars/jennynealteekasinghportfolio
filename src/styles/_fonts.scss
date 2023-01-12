@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'moonDance';
+    src: local("moonDance"),
+        url('../fonts/MoonDance-Regular.woff2') format('woff'),
+        url('../fonts/MoonDance-Regular.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+        }
+
+@font-face {
+    font-family: 'raleway';
+    src: local("raleway"),
+        url('../fonts/Raleway-VariableFont_wght.woff2') format('woff'),
+        url('../fonts/Raleway-VariableFont_wght.woff2') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+@font-face {
+    font-family: 'raleway-bold';
+    src: local('raleway-bold'),
+        url('../fonts/Raleway-VariableFont_wght.woff2') format('woff'),
+        url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway-italic';
+    src: local('raleway-italic'),
+        url('../fonts/Raleway-Italic-VariableFont_wght.woff2') format('woff'),
+        url('../fonts/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}

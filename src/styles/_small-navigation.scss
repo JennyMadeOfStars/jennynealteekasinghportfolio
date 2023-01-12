@@ -1,0 +1,35 @@
+.small-navigation {
+    .main-navigation, .side-navigation {
+        display: none;
+    }
+
+    &.active {
+        .main-navigation, .side-navigation {
+            display: block;
+        }
+
+        .small-navigation__overlay {
+            display: block;
+        }
+    }
+
+    &__cta {
+        padding: 20px 10px 30px 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        .fixed & {
+            position: fixed;
+        }
+    }
+
+    &__overlay {
+        background-color: rgb(0, 0, 0, 0.75);
+        display: none;
+        height: 100%;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+}
