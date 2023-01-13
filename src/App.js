@@ -22,6 +22,7 @@ import screenSizes from './constants/screenSizes';
 import './App.css';
 import './styles/index.scss';
 
+// lazy pages
 const Resume = React.lazy(() => import('./pages/Resume'));
 const Contact = React.lazy(() => import('./pages/Contact'));
 
