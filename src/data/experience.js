@@ -1,13 +1,13 @@
 const experience = [
     {
         startingDate: '8/2011',
-        endingDate: 'Current',
+        endingDate: '2/2023',
         companyName: 'Publicis Groupe / Publicis Sapient / Razorfish / Digital Experience Group',
         jobTitle: 'Senior Engineer',
         companyUrl: 'https://www.publicissapient.com/',
         description: 'Interactive Web Developer built various web-based applications. Worked on both hand-coded and CMS-based and SPA websites, including custom components for Adobe Experience Manager. Translated design comps into HTML5/CSS3 pages with cross-browser compatibility support and responsive/fluid design features. Created and was responsible for offering best practice feedback during pull request process.',
         contributingClientList: [
-            'MBUSA',
+            'Mercedes-Benz USA',
             'VF Corp Platform: Jansport, TheNorthFace, SmartWool, Lee, Wrangler, Reef, Timberland',
             'Wakefern ShopRite',
             'Samsung',

@@ -9,10 +9,10 @@
     width: 64px;
     height: 64px;
     margin: 8px;
-    border-radius: 50%;
+    border-radius: 0%;
     border: 6px solid $color-secondary;
-    border-color: $color-secondary transparent $color-secondary transparent;
-    animation: spinner 1.2s linear infinite;
+    border-color: $color-secondary;
+    animation: spinner 1.5s linear infinite;
   }
   @keyframes spinner {
     0% {
