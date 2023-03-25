@@ -1,0 +1,90 @@
+.carousel {
+	position: relative;
+	margin: 0 auto 10px;
+	height: 520px;
+	overflow: hidden;
+	max-width: 1000px;
+
+    img {
+        width: 100vw;
+        height: 450px;
+        object-fit: cover;
+    }
+
+    &__content {
+        width: 90%;
+    }
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        overflow-x: hidden;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    &__arrows {
+        position: absolute;
+        display: flex;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 0%;
+        padding: 10px;
+        border-radius: 15px 0;
+        overflow: hidden;
+        align-items: baseline;
+    
+        &:before {
+            display: block;
+            content: "";
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.9;
+            // background: white;
+            z-index: 1;
+        }
+    }
+
+    &__arrow {
+        background: none;
+        color: $color-secondary;
+        cursor: pointer;
+        z-index: 2;
+
+        &:hover {
+            color: $color-secondary;
+        }
+
+        &.disabled {
+            color: $color-main-sun;
+            pointer-events: none;
+            background: none;
+
+            .moon & {
+                color: $color-main-moon;
+            }
+        }
+    }
+    
+    &__indicator {
+        font-size: 10px;
+        padding: 0 10px;
+        width: 70px;
+        text-align: center;
+        z-index: 2;
+    }
+
+    &__slide {
+        transition: transform 0.6s ease; 
+    }
+
+    .totalSlides,
+    .currentSlide {
+        border: none;
+        padding: 0 5px;
+        font-size: 14px;
+    }
+}
