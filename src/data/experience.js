@@ -1,5 +1,27 @@
 const experience = [
     {
+        startingDate: '5/2023',
+        endingDate: 'current',
+        companyName: 'Plan.net Americas',
+        jobTitle: 'Senior Technologist',
+        companyUrl: 'https://www.plan-net.com/',
+        description: 'Full stack developer working on web-based and mobile applications. Worked on large scale backend features including scheduled order capacity/time slot product ordering management. And front end features, including translating design comps into flexible content components for CMS authoring.',
+        contributingClientList: [
+            'KFC SOPAC',
+            'KFC Japan',
+        ],
+        techs: [
+            'React.js',
+            'ReactNative',
+            'NodeJS',
+            'Redux',
+            'React Hooks',
+            'Redis',
+            'AWS',
+            'Contentful',
+        ],
+    },
+    {
         startingDate: '8/2011',
         endingDate: '2/2023',
         companyName: 'Publicis Groupe / Publicis Sapient / Razorfish / Digital Experience Group',
@@ -18,7 +40,7 @@ const experience = [
             'Wyndham Hotel & Resorts',
             'Knights Inn',
             'Juvederm UK',
-            'iPad sales app presentations for: Juvederm, Vistabel, Natrelle, Optive/Optive Fusion, Abilify, Gilenya, Extavia, BD'
+            'iPad sales app presentations for: Juvederm, Vistabel, Natrelle, Optive/Optive Fusion, Abilify, Gilenya, Extavia, BD',
         ],
         techs: [
             'Adobe Experience Manager component development',
@@ -43,7 +65,7 @@ const experience = [
             'HTML',
             'CSS',
             'JavaScript',
-            'ASP.Net'
+            'ASP.Net',
         ]
     },
     {
@@ -57,7 +79,7 @@ const experience = [
             'HTML5',
             'CSS',
             'JavaScript',
-            'WebSphere Commerce'
+            'WebSphere Commerce',
         ]
     },
     {
@@ -73,7 +95,7 @@ const experience = [
             'JavaScript',
             'PHP',
             'Joomla',
-            'Drupal'
+            'Drupal',
         ]
     }
 ];
