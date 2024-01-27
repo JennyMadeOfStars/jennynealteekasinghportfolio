@@ -1,7 +1,7 @@
 const experience = [
     {
         startingDate: '5/2023',
-        endingDate: 'current',
+        endingDate: '',
         companyName: 'Plan.net Americas',
         jobTitle: 'Senior Technologist',
         companyUrl: 'https://www.plan-net.com/',
@@ -11,6 +11,7 @@ const experience = [
             'KFC Japan',
         ],
         techs: [
+            'Node.js',
             'React.js',
             'ReactNative',
             'NodeJS',

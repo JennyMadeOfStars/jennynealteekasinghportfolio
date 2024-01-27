@@ -26,7 +26,7 @@ const Experience = () => {
                     experience.map((role, index) => 
                         <li key={`${role}_${index}`} className="experience-section__list-item">
                             <dl>
-                                <dt>{role.startingDate} - {role.endingDate}</dt>
+                                <dt>{role.startingDate} - {role?.endingDate || 'current'}</dt>
                                 <dd>
                                     <h3>{role.companyName}</h3>
                                     <p className='italic'>{role.jobTitle}</p>
