@@ -1,13 +1,36 @@
 const experience = [
     {
+        startingDate: '5/2023',
+        endingDate: '',
+        companyName: 'Plan.net Americas',
+        jobTitle: 'Senior Technologist',
+        companyUrl: 'https://www.plan-net.com/',
+        description: 'Full stack developer working on web-based and mobile applications. Worked on large scale backend features including scheduled order capacity/time slot product ordering management. And front end features, including translating design comps into flexible content components for CMS authoring.',
+        contributingClientList: [
+            'KFC SOPAC',
+            'KFC Japan',
+        ],
+        techs: [
+            'Node.js',
+            'React.js',
+            'ReactNative',
+            'NodeJS',
+            'Redux',
+            'React Hooks',
+            'Redis',
+            'AWS',
+            'Contentful',
+        ],
+    },
+    {
         startingDate: '8/2011',
-        endingDate: 'Current',
+        endingDate: '2/2023',
         companyName: 'Publicis Groupe / Publicis Sapient / Razorfish / Digital Experience Group',
         jobTitle: 'Senior Engineer',
         companyUrl: 'https://www.publicissapient.com/',
         description: 'Interactive Web Developer built various web-based applications. Worked on both hand-coded and CMS-based and SPA websites, including custom components for Adobe Experience Manager. Translated design comps into HTML5/CSS3 pages with cross-browser compatibility support and responsive/fluid design features. Created and was responsible for offering best practice feedback during pull request process.',
         contributingClientList: [
-            'MBUSA',
+            'Mercedes-Benz USA',
             'VF Corp Platform: Jansport, TheNorthFace, SmartWool, Lee, Wrangler, Reef, Timberland',
             'Wakefern ShopRite',
             'Samsung',
@@ -18,7 +41,7 @@ const experience = [
             'Wyndham Hotel & Resorts',
             'Knights Inn',
             'Juvederm UK',
-            'iPad sales app presentations for: Juvederm, Vistabel, Natrelle, Optive/Optive Fusion, Abilify, Gilenya, Extavia, BD'
+            'iPad sales app presentations for: Juvederm, Vistabel, Natrelle, Optive/Optive Fusion, Abilify, Gilenya, Extavia, BD',
         ],
         techs: [
             'Adobe Experience Manager component development',
@@ -43,7 +66,7 @@ const experience = [
             'HTML',
             'CSS',
             'JavaScript',
-            'ASP.Net'
+            'ASP.Net',
         ]
     },
     {
@@ -57,7 +80,7 @@ const experience = [
             'HTML5',
             'CSS',
             'JavaScript',
-            'WebSphere Commerce'
+            'WebSphere Commerce',
         ]
     },
     {
@@ -73,7 +96,7 @@ const experience = [
             'JavaScript',
             'PHP',
             'Joomla',
-            'Drupal'
+            'Drupal',
         ]
     }
 ];

@@ -1,14 +1,14 @@
 // elements
 import H2 from '../../elements/H2';
+import LazyImage from '../../elements/LazyImage';
 
 // data
-import programmingSkills from '../../data/programming-skills';
+import programmingSkills from '../../data/programmingSkills';
 import inProgressSkills from '../../data/inProgressSkills';
-import softSkills from '../../data/soft-skills';
+import softSkills from '../../data/softSkills';
 import computerArtSkills from '../../data/computerArtSkills';
 import artSkills from '../../data/artSkills';
 import additionalSkills from '../../data/additionalSkills';
-import LazyImage from '../../elements/LazyImage';
 
 /**
  * @function Skills

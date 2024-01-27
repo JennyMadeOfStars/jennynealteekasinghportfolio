@@ -6,7 +6,7 @@ import { Outlet, Link, NavLink } from 'react-router-dom';
 import Button from '../../elements/Button';
 
 // data
-import navLinks from '../../data/nav-links';
+import navLinks from '../../data/navLinks';
 
 /**
  * @function NavElements

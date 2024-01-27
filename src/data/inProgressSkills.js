@@ -14,6 +14,11 @@ const inProgressSkills = [
         logo: 'assets/logos/technologies/webpack.png',
         companyURL: 'https://webpack.js.org/'
     },
+    {
+        name: 'ReactNative',
+        logo: 'assets/logos/technologies/react.png',
+        companyURL: 'https://reactnative.dev/'
+    },
 ];
 
 export default inProgressSkills;

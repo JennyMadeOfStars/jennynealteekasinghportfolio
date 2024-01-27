@@ -19,7 +19,7 @@ const SectionNav = ({sections, activeTab, onSetActiveTab}) => {
                             <Button 
                                 onClick={clickHandler}
                                 classes={`${activeTab === sections[section] ? 'active rainbow' : ''}`}
-                                title={section} />
+                                title={sections[section]} />
                         </li>
                 )})
             }
