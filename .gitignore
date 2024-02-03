@@ -361,3 +361,6 @@ node_modules
 
 # ds store files
 .DS_Store
+
+# idea files
+.idea/

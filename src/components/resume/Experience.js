@@ -1,12 +1,13 @@
 // libraries
-import { useState } from 'react';
+import React from 'react';
+// import { useState } from 'react';
 
 // components
 import HideShowList from './HideShowList';
 
 // elements
 import H2 from '../../elements/H2';
-import Button from '../../elements/Button';
+// import Button from '../../elements/Button';
 
 // data
 import experience from '../../data/experience';
@@ -17,7 +18,6 @@ import experience from '../../data/experience';
  * @returns {JSX} Markup for the experience component
  */
 const Experience = () => {
-    console.log('hello');
     return (
         <div className='experience-section content-section'>
             <H2 title="Experience" />
@@ -30,7 +30,10 @@ const Experience = () => {
                                 <dd>
                                     <h3>{role.companyName}</h3>
                                     <p className='italic'>{role.jobTitle}</p>
-                                    <p>{role.description}</p>
+                                    {
+                                        role.description &&
+                                        role.description.map((desc, index) => <p key={index}>{desc}</p>)
+                                    }
                                     <p className="text">
                                         <span className='bold'>Technologies:</span>
                                         <br />

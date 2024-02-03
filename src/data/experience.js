@@ -1,13 +1,14 @@
 const experience = [
     {
         startingDate: '5/2023',
-        endingDate: '',
-        companyName: 'Plan.net Americas',
+        endingDate: '2/2024',
+        companyName: 'PLAN.NET Americas',
         jobTitle: 'Senior Technologist',
         companyUrl: 'https://www.plan-net.com/',
-        description: 'Full stack developer working on web-based and mobile applications. Worked on large scale backend features including scheduled order capacity/time slot product ordering management. And front end features, including translating design comps into flexible content components for CMS authoring.',
+        description: ['Full-stack developer, worked as part of a team to develop solutions for the client’s global web-based and mobile applications to enhance the customer experience of product ordering, time-based scheduled ordering, product capacity availability, and product promotions.', 'Worked on large-scale backend features that allowed users to select products via time slot increments based on product availability and store operating capacity.', 'Also worked on front-end features including, translating design comps into flexible content components for CMS authoring. Built content models in Contentful.', 'Created E-commerce ETL routes in Python. Headless content modeling in Typescript-based Payload CMS. Modular JavaScript development.'],
         contributingClientList: [
-            'KFC SOPAC',
+            'KFC Global',
+            'KFC Australia',
             'KFC Japan',
         ],
         techs: [
@@ -28,7 +29,7 @@ const experience = [
         companyName: 'Publicis Groupe / Publicis Sapient / Razorfish / Digital Experience Group',
         jobTitle: 'Senior Engineer',
         companyUrl: 'https://www.publicissapient.com/',
-        description: 'Interactive Web Developer built various web-based applications. Worked on both hand-coded and CMS-based and SPA websites, including custom components for Adobe Experience Manager. Translated design comps into HTML5/CSS3 pages with cross-browser compatibility support and responsive/fluid design features. Created and was responsible for offering best practice feedback during pull request process.',
+        description: ['Front-end interactive Web Developer functioned as part of a SAFE Agile team structure building components for various web-based applications using Adobe Experience Manager. Created and integrated JSP Sightly pages to absorb data and authored content. Translated design comps into SPAs (Single Page Applications). Developed responsive/fluid design features, and ensured cross-browser compatibility and web accessibility following disability guidelines.'],
         contributingClientList: [
             'Mercedes-Benz USA',
             'VF Corp Platform: Jansport, TheNorthFace, SmartWool, Lee, Wrangler, Reef, Timberland',
@@ -61,7 +62,7 @@ const experience = [
         companyName: 'NextGen',
         jobTitle: 'Web Developer/Contractor',
         companyUrl: '',
-        description: 'Created pages for and updated company website, performed QA related tasks, created short URLs, as well as cross browser testing.',
+        description: ['Created pages for and updated company website, performed QA related tasks, created short URLs, as well as cross browser testing.'],
         techs: [
             'HTML',
             'CSS',
@@ -75,7 +76,7 @@ const experience = [
         companyName: 'QVC Studio Park',
         jobTitle: 'Site Developer/Contractor',
         companyUrl: '',
-        description: 'Created pages for and updated company website shopping categories, including cross browser testing.',
+        description: ['Created pages for and updated company website shopping categories, including cross browser testing.'],
         techs: [
             'HTML5',
             'CSS',
